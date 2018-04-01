@@ -1,0 +1,11 @@
+version: "2"
+settings:
+  conductor:
+    base: centos:7
+  project_name: openjdk-jdk
+services:
+  hdp_ambari_server:
+    from: "centos:7"
+    roles:
+      - { role: rgibert.openjdk-jdk }
+registries: {}
