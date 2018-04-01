@@ -4,7 +4,7 @@ settings:
     base: centos:7
   project_name: openjdk-jdk
 services:
-  hdp_ambari_server:
+  openjdk_jdk:
     from: "centos:7"
     roles:
       - { role: rgibert.openjdk-jdk }
