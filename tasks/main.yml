@@ -11,5 +11,5 @@
     tags:
       - openjdk_jdk_install_package
 
-tags:
-  - openjdk_jdk
+  tags:
+    - openjdk_jdk
