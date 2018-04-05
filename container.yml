@@ -7,5 +7,5 @@ services:
   openjdk_jdk:
     from: "centos:7"
     roles:
-      - rgibert.openjdk-jdk
+      - { roles: rgibert.openjdk-jdk }
 registries: {}
